@@ -54,7 +54,7 @@ public class APIManager {
         return AUTH_TOKEN;
     }
 
-    static void setAuthToken(String authToken) {
+    public static void setAuthToken(String authToken) {
         AUTH_TOKEN = authToken;
     }
 
