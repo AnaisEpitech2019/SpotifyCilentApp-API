@@ -1,8 +1,8 @@
 package com.spotifyclientapp.anais.spotifyclientapp_api.managers;
 
 import com.spotifyclientapp.anais.spotifyclientapp_api.callbacks.MyCallback;
-import com.spotifyclientapp.anais.spotifyclientapp_api.models.AllPlaylist;
-import com.spotifyclientapp.anais.spotifyclientapp_api.models.User;
+import com.spotifyclientapp.anais.spotifyclientapp_api.models.modelsAll.AllPlaylist;
+import com.spotifyclientapp.anais.spotifyclientapp_api.models.authentication.User;
 import com.spotifyclientapp.anais.spotifyclientapp_api.services.AccountServices;
 
 import retrofit2.Call;

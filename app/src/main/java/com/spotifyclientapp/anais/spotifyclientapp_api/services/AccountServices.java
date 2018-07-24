@@ -1,9 +1,7 @@
 package com.spotifyclientapp.anais.spotifyclientapp_api.services;
 
-import com.spotifyclientapp.anais.spotifyclientapp_api.models.AllPlaylist;
-import com.spotifyclientapp.anais.spotifyclientapp_api.models.User;
-
-import java.util.List;
+import com.spotifyclientapp.anais.spotifyclientapp_api.models.modelsAll.AllPlaylist;
+import com.spotifyclientapp.anais.spotifyclientapp_api.models.authentication.User;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

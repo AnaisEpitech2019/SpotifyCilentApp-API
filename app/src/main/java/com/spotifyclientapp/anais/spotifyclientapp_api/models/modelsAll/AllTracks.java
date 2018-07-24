@@ -1,4 +1,4 @@
-package com.spotifyclientapp.anais.spotifyclientapp_api.models;
+package com.spotifyclientapp.anais.spotifyclientapp_api.models.modelsAll;
 
 import com.google.gson.annotations.SerializedName;
 

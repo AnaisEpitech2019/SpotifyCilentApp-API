@@ -6,7 +6,7 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.spotifyclientapp.anais.spotifyclientapp_api.callbacks.MyCallback;
 import com.spotifyclientapp.anais.spotifyclientapp_api.callbacks.MyResponseCallback;
-import com.spotifyclientapp.anais.spotifyclientapp_api.models.Tokens;
+import com.spotifyclientapp.anais.spotifyclientapp_api.models.authentication.Tokens;
 
 import java.io.IOException;
 import java.lang.annotation.Annotation;

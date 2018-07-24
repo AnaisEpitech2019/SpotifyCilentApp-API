@@ -1,6 +1,7 @@
 package com.spotifyclientapp.anais.spotifyclientapp_api.models;
 
 import com.google.gson.annotations.SerializedName;
+import com.spotifyclientapp.anais.spotifyclientapp_api.models.modelsAll.AllTracks;
 
 import java.io.Serializable;
 

@@ -1,6 +1,7 @@
-package com.spotifyclientapp.anais.spotifyclientapp_api.models;
+package com.spotifyclientapp.anais.spotifyclientapp_api.models.modelsAll;
 
 import com.google.gson.annotations.SerializedName;
+import com.spotifyclientapp.anais.spotifyclientapp_api.models.Playlist;
 
 import java.io.Serializable;
 import java.util.List;
