@@ -1,6 +1,7 @@
 package com.spotifyclientapp.anais.spotifyclientapp_api.services;
 
 import com.spotifyclientapp.anais.spotifyclientapp_api.models.modelsAll.AllCategories;
+import com.spotifyclientapp.anais.spotifyclientapp_api.models.search.ResultSearch;
 
 import java.util.Map;
 
@@ -18,5 +19,13 @@ public class HomeServices {
                 @Header("Authorization") String authHeader,
                 @QueryMap Map<String, Object> map
                 );
+    }
+
+    public interface getResultSearch {
+        @GET("/v1/search")
+        Call<ResultSearch> load(
+                @Header("Authorization") String authHeader,
+                @QueryMap Map<String, Object> map
+        );
     }
 }
